@@ -1,6 +1,6 @@
 import re
 
-with open('input.txt', 'r') as f:
+with open('input/05.txt', 'r') as f:
     start, moves = f.read().split('\n\n')
     moves = moves.split('\n')
 

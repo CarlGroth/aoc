@@ -1,4 +1,4 @@
-with open('input.txt', 'r') as f:
+with open('input/01.txt', 'r') as f:
     arr = f.read().split('\n\n')
 
 

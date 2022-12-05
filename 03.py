@@ -1,6 +1,6 @@
 from functools import reduce
 
-with open('input.txt', 'r') as f:
+with open('input/03.txt', 'r') as f:
     arr = f.read().split('\n')
 
 
@@ -9,7 +9,8 @@ def priority(letter):
 
 
 def part1():
-    print(sum(priority((set(line[len(line)//2:]) & set(line[:len(line)//2])).pop()) for line in arr))
+    print(sum(priority(
+        (set(line[len(line)//2:]) & set(line[:len(line)//2])).pop()) for line in arr))
 
 
 def part2():
